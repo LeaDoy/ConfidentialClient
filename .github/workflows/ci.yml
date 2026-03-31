@@ -39,3 +39,18 @@ jobs:
         run: terraform fmt -check -recursive
       - name: Validate
         run: terraform validate
+
+  validator-feedback:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: packages/validator-feedback
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Syntax check (ESM)
+        run: |
+          node --check src/index.js
+          node --check examples/globalErrorHook.js

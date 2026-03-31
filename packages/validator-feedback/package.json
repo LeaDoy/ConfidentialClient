@@ -1,0 +1,23 @@
+{
+  "name": "@pdlc/validator-feedback",
+  "version": "0.1.0",
+  "description": "Software Factory Validator Feedback API client (browser/Node 18+)",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src",
+    "examples"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "validator",
+    "feedback",
+    "software-factory"
+  ],
+  "license": "UNLICENSED"
+}

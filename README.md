@@ -9,6 +9,11 @@ It does **not** replace production provisioning: Oracle Cloud **WO-1**, MuleSoft
 - Python **3.9+** (CI uses 3.12).
 - **AWS account** and credentials for `terraform apply`.
 - **Terraform** ≥ 1.6 locally (or rely on GitHub Actions `terraform validate`).
+- **Node.js** 18+ if you work on the Validator Feedback client.
+
+## Validator Feedback (JavaScript)
+
+The package `@pdlc/validator-feedback` in `packages/validator-feedback/` posts user feedback to the Software Factory Validator API with **validation**, **network and rate-limit handling**, and **automatic context** (relative **path only**, user agent, timestamp — no full URLs). See `packages/validator-feedback/README.md` and `examples/` for React and global error reporting.
 
 ## Quick start (application)
 
@@ -50,6 +55,7 @@ Set `alb_certificate_arn` when you have an ACM certificate for HTTPS.
 | Lambdas | 11, 43, 84 | `apps/lambda/` |
 | Oracle DDL | 2, 26, 33, 82, 93 | `sql/oracle/` |
 | MuleSoft | 23–25, 58, 64, 80 | *Anypoint Exchange / Studio — not in repo* |
+| Validator Feedback | Integration / production feedback | `packages/validator-feedback/` |
 
 Use `phase1-work-orders.json` for the Phase 1 list synced from the factory MCP.
 
