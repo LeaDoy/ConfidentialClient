@@ -1,0 +1,23 @@
+{
+  "phase": 1,
+  "total_items": 16,
+  "source": "user-software-factory-pdlc-cohort2-do",
+  "items": [
+    {"id": "357a1ea5-63fe-458b-9066-9602156de6a3", "work_order_number": 1, "title": "Set Up Oracle Database Infrastructure", "status": "in_progress", "type": "build"},
+    {"id": "6ec5a5e7-8eae-4a29-8983-e43ca9dae631", "work_order_number": 4, "title": "Configure AWS Infrastructure Foundation", "status": "in_progress", "type": "build"},
+    {"id": "8c54b409-6a7f-44bd-a50f-a55cc2dfd610", "work_order_number": 13, "title": "Implement GitHub Actions Build Pipeline", "status": "in_progress", "type": "build"},
+    {"id": "0ccdfc31-d756-433c-83a0-edcfa188a2a7", "work_order_number": 60, "title": "Implement AWS IAM Roles and Policies", "status": "in_progress", "type": "build"},
+    {"id": "5aaa9ea6-4b38-4a46-9604-d39886bef0e7", "work_order_number": 63, "title": "Configure AWS Secrets Manager and Rotation", "status": "in_progress", "type": "build"},
+    {"id": "99e557f8-1c20-4782-9756-40fd0aba897e", "work_order_number": 68, "title": "Configure AWS SQS Queues for Bridge-MuleSoft Integration", "status": "ready", "type": "build"},
+    {"id": "ad882e62-6728-44e2-9941-242145dd5ebf", "work_order_number": 69, "title": "Provision ElastiCache Redis Cluster", "status": "ready", "type": "build"},
+    {"id": "340fb453-44e8-4d07-9c46-783fc19c77a8", "work_order_number": 70, "title": "Set Up MuleSoft Anypoint Platform Environments", "status": "ready", "type": "build"},
+    {"id": "2e56df46-1941-4777-9118-2c54d90483d3", "work_order_number": 71, "title": "Configure API Gateway Base Infrastructure", "status": "ready", "type": "build"},
+    {"id": "3797facc-5984-404e-927b-ec1ceaddb7b6", "work_order_number": 72, "title": "Provision S3 Bucket and CloudFront Distribution for Static Assets", "status": "ready", "type": "build"},
+    {"id": "5d969211-1783-4283-a0d0-e9ea7b4d4362", "work_order_number": 74, "title": "Deploy Application Load Balancer with Target Groups", "status": "ready", "type": "build"},
+    {"id": "dee94638-2a85-4782-b6b7-79f6a779be1d", "work_order_number": 75, "title": "Provision Amazon ECS Cluster with Fargate Configuration", "status": "ready", "type": "build"},
+    {"id": "358ed5b8-9426-44df-9438-6b4cb6e76c96", "work_order_number": 76, "title": "Configure AWS Systems Manager Parameter Store Hierarchy", "status": "ready", "type": "build"},
+    {"id": "2252c64f-2aa7-4e08-8168-1e0d2db973cf", "work_order_number": 77, "title": "Set Up AWS Cognito User Pool for OAuth 2.0 Authentication", "status": "ready", "type": "build"},
+    {"id": "bc6b3c3e-bcdd-4daf-8b0b-8abaf9b02702", "work_order_number": 78, "title": "Create DynamoDB Table for User Session Management", "status": "ready", "type": "build"},
+    {"id": "5f25b227-b142-4bae-a324-0356cdabb2ff", "work_order_number": 79, "title": "Deploy AWS WAF with Security Rules for API Gateway", "status": "ready", "type": "build"}
+  ]
+}
