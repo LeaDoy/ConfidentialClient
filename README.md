@@ -56,7 +56,7 @@ Set `alb_certificate_arn` when you have an ACM certificate for HTTPS.
 | Oracle DDL | 2, 26, 33, 82, 93 | `sql/oracle/` |
 | MuleSoft | 23–25, 58, 64, 80 | *Anypoint Exchange / Studio — not in repo* |
 | Validator Feedback | Integration / production feedback | `packages/validator-feedback/` |
-| Kafka on OCP | Confluent for Kubernetes KRaft (`KRaftController` + `Kafka`, Java) | `kafka-ocp-provisioner/` |
+Kafka on OpenShift (Confluent for Kubernetes KRaft provisioner) now lives in **[LeaDoy/KEES2](https://github.com/LeaDoy/KEES2)** (`kafka-ocp-provisioner/`).
 
 Use `phase1-work-orders.json` for the Phase 1 list synced from the factory MCP.
 
